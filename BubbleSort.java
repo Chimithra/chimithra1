@@ -1,7 +1,7 @@
 package com.company;
 import java.util.Arrays;
 
-public class sort {
+public class BubbleSort {
     public static void bubblesort(int [] arr){
         int temp;
         for(int i=1; i<arr.length; i++){
@@ -21,7 +21,7 @@ public class sort {
     }
     public static void main(String [] args){
         int [] arr = {3,5,8,9,5,7,9};
-        sort.bubblesort(arr);
+        BubbleSort.bubblesort(arr);
         System.out.print("After sorting : "+Arrays.toString(arr));
     }
 }
